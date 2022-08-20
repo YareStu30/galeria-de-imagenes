@@ -1,13 +1,28 @@
+body{
+  color: #ccc
+}
+img {
+  width: 230px;
+  margin-top: 10px;
+  background-color: blueviolet;
+}
+.card {
+  background-color: blueviolet;
+  width: 2800px;
+  margin: 20px;
+  color: #ccc;
+}
+.box {
+  display: flex;
+  justify-content: center;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: url("https://i.pinimg.com/originals/f4/28/d9/f428d9158ee4550edabc2cd45c86bc89.png");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+footer {
+  margin-top: 10%;
+  color: black;
 }
