@@ -4,8 +4,8 @@ const Footer = (props) => {
       <>
       <footer className="footer">
       <p>{props.parrafo}</p>
-      <a href="">
-      <Button variant="primary">Más información aquí</Button>{" "}
+      <a href="https://es.wikipedia.org/wiki/Sailor_Moon">
+      <Button variant="Secondary">Más información aquí</Button>
       </a>
       </footer>
       </>
